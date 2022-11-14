@@ -32,7 +32,7 @@ namespace BugbsterInjector
         {
             if (checkBox1.Checked == true)
             {
-                File.WriteAllText(@"C:\Temp\LICENSE.txt", "Thank you For Using This Injector... Made by NixButterPlay... This LICESE under MIT");
+                File.WriteAllText(@"C:\Temp\LICENSE.txt", "Thank you For Using This Injector... Made by NixButterPlay... This LICENSE under MIT");
                 Process.Start("notepad", @"C:\Temp\LICENSE.txt");
             }
         }
